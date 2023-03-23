@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Rockwell';
+}
+body {
+  background-color: bisque;
+}
+
+nav {
+  background-color: #4d463e;
+}
+.navbar .navbar-nav {
+  margin: 5px auto;
+}
+
+main {
+  width: 100vw;   
+  overflow: hidden; 
+}
+
+
+/*Banner*/
+.banner-content {
+  margin-top: 8rem;
+}
+
+/*content*/
+.container-h1 {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+/*support us*/
+
+
+hr {
+  width: 80%;
+  background: #279a5c;
+}
+
+.h1-title {
+  color: #4f7147;
+  font-weight: bolder;
+  font-size: 4rem;
+  text-shadow: 4px 2px #899f83;
+  text-align: center;
+}
+
+.h2-title {
+  font-weight: bold;
+  color: #4f7147;
+  font-size: 2rem;
+  text-shadow: 1px 1px #899f83;
+  text-align: center;
+  margin: 2vw;
+}
+.content-dsc {
+  font-family: 'Helvetica';
+  text-indent: 2vh;
+  color: #964B00;
+  text-align: start;
+  font-size: 1.8vh;
+  font-weight: bold;
+}
+/*donate*/
+.bi-paypal {
+  color: #3b7bbf;
+}
+#donate-dis {
+
+  font-weight: bold;
+  font-size: 2rem;
+}
+#content-align {
+  text-align: center;
+}
+
+
+/*social*/
+.social-media {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  list-style: none;;
+}
+.content-dis1 {
+  color: #4267B2;
+}
+.content-dis2 {
+  color: #00acee;
+}
+.content-dis3 {
+  color: #fa1e6f;
+}
+
+#fb {
+  color: #4267B2;
+}
+
+.bi-twitter {
+  color: #00acee;
+}
+.bi-instagram {
+  color:  #fa1e6f;
+}
+
+form {
+  text-align: center;
+}
+.lab-dis {
+  color: #4f7147;
+}
+.cont-dis {
+  border: 2px solid #279a5c;
+}
+.btn-dis {
+  background-color: #FC6920;
+  border: 2px solid #FC6920;
+  font-family: 'Helvetica';
+}
+/*contact us*/
+#cont-body {
+  background-size: cover;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: #4d463e;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.wrapper .title h1{
+  color: #899f83;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #279a5c;
+  padding: 10px;
+  color: #279a5c;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #279a5c;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #279a5c;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #279a5c;
+}
+
+.btn {
+    background: #FC6920;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
+
+/*vision*/
+#brdr-img {
+  border: 2px solid #4f7147;
+}
+.cont-style {
+  margin-top: 2vh;
+  font-weight: bolder;
+  font-family: 'Helvetica';
+  color: #964B00;
+}
+.mrgn-space {
+  margin-top: none;
+}
+
+/*footer*/
+img > .img {
+  max-width: 100%;
+  height: auto;
+}
+      .footer {
+          padding: 60px 0;
+         /* min-height: 100vh;*/
+      }
+.ul__ {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+      }
+.contact-area {
+  border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+  font-size: 15px;
+  margin: 30px 0 60px;
+  position: relative;
+}
+
+.contact-content p::after {
+  background: #353C46;
+  bottom: -30px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.contact-content h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contact-content span {
+  color: #353c47;
+  margin: 0 10px;
+}
+
+.contact-social {
+  margin-top: 30px;
+}
+
+.contact-social > ul {
+  display: inline-flex;
+}
+
+.contact-social ul li a {
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 7px;
+  transition: all 0.4s ease 0s;
+  width: 40px;
+}
+
+.contact-social ul li a:hover {
+  border: 1px solid #FAB702;
+  color: #FAB702;
+}
+
+.contact-content img {
+  max-width: 210px;
+}
+
+.footer, footer {
+  background: #279a5c;
+  color: white;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+}
+/*end footer*/
+/*scroll up*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}

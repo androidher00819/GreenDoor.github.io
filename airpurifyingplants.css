@@ -1,0 +1,156 @@
+* {
+  font-family: 'Rockwell';
+}
+body {
+  background-color: bisque;
+}
+
+nav {
+  background-color: #4d463e;
+}
+.navbar .navbar-nav {
+  margin: 5px auto;
+}
+main {
+  width: 100vw;   
+  overflow: hidden; 
+}
+
+/* content 1*/
+.container-h1 {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.h1-title {
+  color: #4f7147;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-shadow: 4px 2px #899f83;
+}
+
+#img-1 {
+  border: 5px solid #4f7147;
+}
+
+.h5-title {
+  font-weight: bold;
+  color: #4f7147;
+  font-size: 2rem;
+  text-shadow: 1px 1px #899f83;
+}
+
+.content-dsc {
+  font-family: 'Helvetica';
+  text-indent: 2vh;
+  color: #964B00;
+  text-align: justify;
+  font-size: 1rem;
+}
+hr {
+  width: 70%;
+  background: #279a5c;
+}
+
+span {
+  color: #FC6920;
+  font-family: 'Helvetica';
+  font-weight: bold;
+}
+
+/*footer*/
+img > .img {
+  max-width: 100%;
+  height: auto;
+}
+      section {
+          padding: 60px 0;
+         /* min-height: 100vh;*/
+      }
+.ul__ {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+      }
+.contact-area {
+  border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+  font-size: 15px;
+  margin: 30px 0 60px;
+  position: relative;
+}
+
+.contact-content p::after {
+  background: #353C46;
+  bottom: -30px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.contact-content h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contact-content span {
+  color: #353c47;
+  margin: 0 10px;
+}
+
+.contact-social {
+  margin-top: 30px;
+}
+
+.contact-social > ul {
+  display: inline-flex;
+}
+
+.contact-social ul li a {
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 7px;
+  transition: all 0.4s ease 0s;
+  width: 40px;
+}
+
+.contact-social ul li a:hover {
+  border: 1px solid #FAB702;
+  color: #FAB702;
+}
+
+.contact-content img {
+  max-width: 210px;
+}
+
+section, footer {
+  background: #279a5c;
+  color: white;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+}
+/*end footer*/
+/*scroll up*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
